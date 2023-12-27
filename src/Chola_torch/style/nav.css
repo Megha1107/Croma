@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .menu button, .search input, .search button, .cart a {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .menu button, .cart a {
+    margin-right: 20px;
+  }
+  
+  .search input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    color: #000;
+  }
+  
+  .search button {
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+  }
+  
+  .cart .cart-value {
+    background-color: #fff;
+    color: #000;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+
+ .szsubmenu {
+    text-align: left;
+  }
+
+  #szsubmenu {
+  float: left;
+  background-color: #fff;
+  height: 95%;
+  max-height: 900px;
+  /* overflow: hidden; */
+  /* overflow-y: auto; */
+  width: 26.25vw;
+  padding-right: 10px;
+  box-shadow: none!important;
+  background-color: var(--croma-wall)!important;
+  color: var(--text-color)!important;
+}
+
+.dark-theme #szsubmenu {
+  /* Any specific styles for dark theme */
+  box-shadow: none!important;
+  background-color: var(--croma-wall)!important;
+  color: var(--text-color)!important;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+:root {
+    --bs-white: #FFFFFF;
+    --bs-primary: #6837d7;
+    --bs-secondary: #C730E3;
+    --bs-yellow: #fda006;
+    --bs-black: #000000;
+    --bs-green:#00c689;
+    --bs-blue:#3da5f4;
+    --bs-red:#f1536e;
+    --bs-first-grey: #333333;
+    --bs-second-grey: #666666;
+    --bs-third-grey: #aaaaaa;
+    --bs-fourth-grey: #eeeeee;
+  }
+.bg-success{
+    background-color:var(--bs-green) !important;
+}
+.bg-info{
+    background-color:var(--bs-blue) !important;
+}
+.bg-danger{
+    background-color:var(--bs-red) !important;
+}
+.bg-warning{
+    background-color:var(--bs-yellow) !important;
+}
