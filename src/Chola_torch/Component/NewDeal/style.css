@@ -1,0 +1,149 @@
+.deal-card{
+    background: #121212;
+    color: white;
+}
+
+
+/* Example CSS for Product Card */
+.swiper-slide {
+    /* width: 339px; */
+    /* margin-right: 15px; */
+  }
+  
+  .cp-product {
+    background-color: #000000; /* Light black background color */
+    padding: 15px;
+    border-radius: 8px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); Example shadow effect */
+    color: white;
+  }
+  
+  .product-img img {
+    width: 100%; /* Image fills its container */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .cp-price {
+    margin-top: 10px;
+  }
+  
+  .new-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .old-price {
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+    margin-left: 10px;
+  }
+  
+  .cp-rating {
+    margin-top: 10px;
+  }
+  
+  /* Example star icon */
+  .MuiRating-root {
+    color: #ffc107; /* Yellow color for stars */
+    font-size: 20px;
+  }
+  
+  .product-like {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .icon-wishlist {
+    /* Add styles for the wishlist icon */
+    /* Example: Display a heart icon as the wishlist icon */
+  }
+  
+  /* Additional styles can be added or adjusted based on design requirements */
+  
+
+  .card-container {
+    display: flex;
+    gap: 15px; /* Space between cards */
+  }
+  
+  /* Add these styles to your CSS file */
+.cp-product {
+  border: 1px solid #ccc;
+  width: 300px;
+  position: relative;
+}
+
+.product-img {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.product-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.wishlistBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.product-details {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.product-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cp-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new-price,
+.old-price {
+  font-size: 16px;
+}
+
+
+.Deal-title{
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #ffffff;
+  margin-right: 73%;
+  }
+
+  .column-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Adjust alignment as needed */
+}
